@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Rapid Api timeout between retries on failure(in seconds)</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_752538_base_ma_0.integration_retry_timeout</name>
+        <read_roles/>
+        <suffix>integration_retry_timeout</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 15:07:25</sys_created_on>
+        <sys_id>24421f80837432108bbdb2b6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_base_ma_0.integration_retry_timeout</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>sys_properties_24421f80837432108bbdb2b6feaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 15:07:25</sys_updated_on>
+        <type>integer</type>
+        <value>5</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=24421f80837432108bbdb2b6feaad3ec"/>
+</record_update>

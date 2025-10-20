@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Rapid Api format</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_752538_base_ma_0.format</name>
+        <read_roles/>
+        <suffix>format</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 15:36:53</sys_created_on>
+        <sys_id>c5099fc8837432108bbdb2b6feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_base_ma_0.format</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>sys_properties_c5099fc8837432108bbdb2b6feaad31c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 15:36:53</sys_updated_on>
+        <type>string</type>
+        <value>json</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=c5099fc8837432108bbdb2b6feaad31c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_properties_c5099fc8837432108bbdb2b6feaad31c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Rapid Api format</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_752538_base_ma_0.format</name><read_roles/><suffix>format</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 15:36:53</sys_created_on><sys_id>c5099fc8837432108bbdb2b6feaad31c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_752538_base_ma_0.format</sys_name><sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package><sys_policy/><sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope><sys_update_name>sys_properties_c5099fc8837432108bbdb2b6feaad31c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 15:36:53</sys_updated_on><type>string</type><value>json</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=c5099fc8837432108bbdb2b6feaad31c"/></record_update>]]></payload>
+        <payload_hash>1815585915</payload_hash>
+        <record_name>x_752538_base_ma_0.format</record_name>
+        <reverted_from/>
+        <source>fb1abe0483f032108bbdb2b6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 15:36:53</sys_created_on>
+        <sys_id>94299f48837432108bbdb2b6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a02442bf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 15:36:53</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>58299f4801743210492853cd2fbeeece</update_guid>
+        <update_guid_history>58299f4801743210492853cd2fbeeece:1815585915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 15:37:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>6283e864c36d4860aa7bb8c0159b4f90</sys_id>
+        <sys_metadata>c5099fc8837432108bbdb2b6feaad31c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_base_ma_0.format</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_scope_delete display_value="">48fdc42cddc04790aa1a6554c3c1c610</sys_scope_delete>
+        <sys_update_name>sys_properties_c5099fc8837432108bbdb2b6feaad31c</sys_update_name>
+        <sys_update_version display_value="sys_properties_c5099fc8837432108bbdb2b6feaad31c">94299f48837432108bbdb2b6feaad3cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 15:37:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
