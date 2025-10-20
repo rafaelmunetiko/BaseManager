@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_752538_base_ma_0.CheckDuplicateBase</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CheckDuplicateBase</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CheckDuplicateBase = Class.create();
+CheckDuplicateBase.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    checkDuplicateName: function() {
+        var name = this.getParameter('sysparm_name_value');
+        var sysId = this.getParameter('sysparm_sys_id');
+
+        if (!name) return 'OK';
+
+        var gr = new GlideRecord('x_752538_base_ma_0_bases');
+        gr.addQuery('name', name);
+        if (sysId) gr.addQuery('sys_id', '!=', sysId);
+        gr.setLimit(1);
+        gr.query();
+
+        return gr.next() ? 'DUPLICATE_NAME' : 'OK';
+    },
+
+    checkDuplicateLocation: function() {
+        var city = this.getParameter('sysparm_city');
+        var state = this.getParameter('sysparm_state');
+        var sysId = this.getParameter('sysparm_sys_id');
+
+        if (!city || !state) return 'OK';
+
+        var gr = new GlideRecord('x_752538_base_ma_0_bases');
+        gr.addQuery('city', city);
+        gr.addQuery('state', state);
+        if (sysId) gr.addQuery('sys_id', '!=', sysId);
+        gr.setLimit(1);
+        gr.query();
+
+        return gr.next() ? 'DUPLICATE_CITY_STATE' : 'OK';
+    }
+
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 18:43:18</sys_created_on>
+        <sys_id>a9b1c010837832108bbdb2b6feaad34c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CheckDuplicateBase</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>sys_script_include_a9b1c010837832108bbdb2b6feaad34c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 19:04:14</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>a9b1c010837832108bbdb2b6feaad34c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 18:43:17</sys_created_on>
+        <sys_id>b6c3849c833832108bbdb2b6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 18:43:17</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_include_a9b1c010837832108bbdb2b6feaad34c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_752538_base_ma_0.CheckDuplicateBase&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;CheckDuplicateBase&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var CheckDuplicateBase = Class.create();
+CheckDuplicateBase.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    checkDuplicateName: function() {
+        var name = this.getParameter('sysparm_name_value');
+        var sysId = this.getParameter('sysparm_sys_id');
+
+        if (!name) return 'OK';
+
+        var gr = new GlideRecord('x_752538_base_ma_0_bases');
+        gr.addQuery('name', name);
+        if (sysId) gr.addQuery('sys_id', '!=', sysId);
+        gr.setLimit(1);
+        gr.query();
+
+        return gr.next() ? 'DUPLICATE_NAME' : 'OK';
+    },
+
+    checkDuplicateLocation: function() {
+        var city = this.getParameter('sysparm_city');
+        var state = this.getParameter('sysparm_state');
+        var sysId = this.getParameter('sysparm_sys_id');
+
+        if (!city || !state) return 'OK';
+
+        var gr = new GlideRecord('x_752538_base_ma_0_bases');
+        gr.addQuery('city', city);
+        gr.addQuery('state', state);
+        if (sysId) gr.addQuery('sys_id', '!=', sysId);
+        gr.setLimit(1);
+        gr.query();
+
+        return gr.next() ? 'DUPLICATE_CITY_STATE' : 'OK';
+    }
+
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-20 18:43:18&lt;/sys_created_on&gt;&lt;sys_id&gt;a9b1c010837832108bbdb2b6feaad34c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;CheckDuplicateBase&lt;/sys_name&gt;&lt;sys_package display_value="Base Manager" source="x_752538_base_ma_0"&gt;3b1abe0483f032108bbdb2b6feaad306&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Base Manager"&gt;3b1abe0483f032108bbdb2b6feaad306&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a9b1c010837832108bbdb2b6feaad34c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-20 19:04:14&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;a9b1c010837832108bbdb2b6feaad34c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-20 18:43:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b6c3849c833832108bbdb2b6feaad32f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-20 18:43:17&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>216473954</payload_hash>
+        <record_name>CheckDuplicateBase</record_name>
+        <reverted_from/>
+        <source>fb1abe0483f032108bbdb2b6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 19:04:14</sys_created_on>
+        <sys_id>61984818837832108bbdb2b6feaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a030201a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 19:04:14</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>a59848189878321042ef3dd339b37fcb</update_guid>
+        <update_guid_history>a59848189878321042ef3dd339b37fcb:216473954,8bc3c09c8f3832105082ca5b62ea8c79:-1866324225</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 21:19:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>5c25dc026a7643be984b5096b8e3c649</sys_id>
+        <sys_metadata>a9b1c010837832108bbdb2b6feaad34c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckDuplicateBase</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_scope_delete display_value="">48fdc42cddc04790aa1a6554c3c1c610</sys_scope_delete>
+        <sys_update_name>sys_script_include_a9b1c010837832108bbdb2b6feaad34c</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a9b1c010837832108bbdb2b6feaad34c">61984818837832108bbdb2b6feaad3cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 21:19:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

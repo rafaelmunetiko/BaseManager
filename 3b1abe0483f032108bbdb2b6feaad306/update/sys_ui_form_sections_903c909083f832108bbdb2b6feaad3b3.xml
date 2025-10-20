@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="903c909083f832108bbdb2b6feaad3b3" sys_domain="global" table="x_752538_base_ma_0_memberships" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 20:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>183c909083f832108bbdb2b6feaad3b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_752538_base_ma_0_memberships" name="x_752538_base_ma_0_memberships" sys_domain="global" view="Default view">903c909083f832108bbdb2b6feaad3b3</sys_ui_form>
+            <sys_ui_section caption="Memberships" display_value="Memberships" name="x_752538_base_ma_0_memberships" sys_domain="global" view="Default view">c03c909083f832108bbdb2b6feaad3ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 20:29:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_752538_base_ma_0_memberships</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 20:29:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>903c909083f832108bbdb2b6feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_752538_base_ma_0_memberships</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+            <sys_update_name>sys_ui_form_sections_903c909083f832108bbdb2b6feaad3b3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 20:29:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
