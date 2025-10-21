@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>approved_members_list</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    if (!current || !current.sys_id) {
+        template.print('<p>Error: The Base record is not available.</p>');
+        return;
+    }
+
+    template.print('<p><b>List of Approved Members for Base: ' + current.getDisplayValue('name') + '</b></p>');
+    template.print('<ul>');
+
+    var membershipsGR = new GlideRecord('x_752538_base_ma_0_memberships');
+    membershipsGR.addQuery('base', current.sys_id);
+    membershipsGR.addQuery('state', 3);
+    membershipsGR.query();
+
+    var foundMembers = false;
+    while (membershipsGR.next()) {
+        foundMembers = true;
+        
+
+        var openedById = membershipsGR.getValue('opened_by');
+        var memberName = '(User not found)';
+        
+        if (openedById) {
+            var userGR = new GlideRecord('sys_user');
+            if (userGR.get(openedById)) {
+                memberName = userGR.getDisplayValue('name');
+            }
+        }
+        
+        template.print('<li>' + memberName + '</li>');
+    }
+
+    if (!foundMembers) {
+        template.print('<li>No approved members found.</li>');
+    }
+    
+    template.print('</ul>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 17:27:52</sys_created_on>
+        <sys_id>6e0c706c8330b2108bbdb2b6feaad35c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>approved_members_list</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>sys_script_email_6e0c706c8330b2108bbdb2b6feaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 18:19:32</sys_updated_on>
+    </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6e0c706c8330b2108bbdb2b6feaad35c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 17:27:52</sys_created_on>
+        <sys_id>771c34a88330b2108bbdb2b6feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:27:52</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
