@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_752538_base_ma_0.CheckBaseCapacity</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CheckBaseCapacity</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CheckBaseCapacity = Class.create();
+CheckBaseCapacity.prototype = {
+    initialize: function() {},
+
+    checkIfBaseIsFullById: function(baseId) {
+        if (!baseId) return false;
+        var baseGR = new GlideRecord('x_752538_base_ma_0_bases');
+        if (!baseGR.get(baseId)) return false;
+        return baseGR.getValue('capacity_status') == '3';
+    },
+
+    checkIfBaseIsFull: function() {
+
+        var baseId = this.getParameter('sysparm_base_id');
+        return this.checkIfBaseIsFullById(baseId);
+    },
+
+    type: 'CheckBaseCapacity'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 14:54:50</sys_created_on>
+        <sys_id>b572e97c83b4f2108bbdb2b6feaad346</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CheckBaseCapacity</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>sys_script_include_b572e97c83b4f2108bbdb2b6feaad346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 15:00:41</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b572e97c83b4f2108bbdb2b6feaad346</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 14:54:50</sys_created_on>
+        <sys_id>b7a22d7c83b4f2108bbdb2b6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 14:54:50</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

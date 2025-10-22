@@ -15,7 +15,7 @@
         <mobile_title>My Base</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_752538_base_ma_0_bases</name>
-        <order>100</order>
+        <order>125</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0f8ab1483b872108bbdb2b6feaad300</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>My Base</sys_name>
         <sys_overrides/>
         <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
         <sys_update_name>sys_app_module_d0f8ab1483b872108bbdb2b6feaad300</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 11:38:06</sys_updated_on>
+        <sys_updated_on>2025-10-22 12:56:00</sys_updated_on>
         <timeline_page/>
         <title>My Base</title>
         <uncancelable>false</uncancelable>
