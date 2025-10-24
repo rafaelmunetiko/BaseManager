@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Base Manager">90bdc460837c72108bbdb2b6feaad36e</dashboard>
+        <name>New Tab 1</name>
+        <order>3</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:05:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88fc3421837cb6108bbdb2b6feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>par_dashboard_tab_88fc3421837cb6108bbdb2b6feaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:05:21</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>par_dashboard_tab_88fc3421837cb6108bbdb2b6feaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Base Manager">90bdc460837c72108bbdb2b6feaad36e</dashboard><name>New Tab 1</name><order>3</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-24 20:05:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>88fc3421837cb6108bbdb2b6feaad3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 1</sys_name><sys_overrides/><sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package><sys_policy/><sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope><sys_update_name>par_dashboard_tab_88fc3421837cb6108bbdb2b6feaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-24 20:05:21</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>1055117449</payload_hash>
+        <record_name>New Tab 1</record_name>
+        <reverted_from/>
+        <source>d9cc40d8837832108bbdb2b6feaad3ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:05:21</sys_created_on>
+        <sys_id>48fc3421837cb6108bbdb2b6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a17d367ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:05:21</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>c8fc3421487cb61063ee4f9957b24eb6</update_guid>
+        <update_guid_history>c8fc3421487cb61063ee4f9957b24eb6:1055117449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Tab 1">99ae3c61837cb6108bbdb2b6feaad3d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:12:50</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>35fe1bfd4d2a4089917e3d5c13243381</sys_id>
+        <sys_metadata>88fc3421837cb6108bbdb2b6feaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_scope_delete display_value="">48fdc42cddc04790aa1a6554c3c1c610</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_88fc3421837cb6108bbdb2b6feaad3b4</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_88fc3421837cb6108bbdb2b6feaad3b4">48fc3421837cb6108bbdb2b6feaad3b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:12:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

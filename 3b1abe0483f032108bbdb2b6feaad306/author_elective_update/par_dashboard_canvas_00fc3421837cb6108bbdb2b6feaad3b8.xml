@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Base Manager">90bdc460837c72108bbdb2b6feaad36e</dashboard>
+        <dashboard_tab display_value="New Tab 1">88fc3421837cb6108bbdb2b6feaad3b4</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:05:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00fc3421837cb6108bbdb2b6feaad3b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>par_dashboard_canvas_00fc3421837cb6108bbdb2b6feaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:10:23</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>par_dashboard_canvas_00fc3421837cb6108bbdb2b6feaad3b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Base Manager">90bdc460837c72108bbdb2b6feaad36e</dashboard><dashboard_tab display_value="New Tab 1">88fc3421837cb6108bbdb2b6feaad3b4</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-24 20:05:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>00fc3421837cb6108bbdb2b6feaad3b8</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package><sys_policy/><sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope><sys_update_name>par_dashboard_canvas_00fc3421837cb6108bbdb2b6feaad3b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-24 20:10:23</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-1748692603</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d9cc40d8837832108bbdb2b6feaad3ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:10:23</sys_created_on>
+        <sys_id>a11ebca1837cb6108bbdb2b6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a17d801880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:10:23</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>a51ebca1217cb610d90b99375adfe5c0</update_guid>
+        <update_guid_history>a51ebca1217cb610d90b99375adfe5c0:-1748692603,cf0ebca1887cb6107fcb0e286df41c07:-1291076612,c4fc34210b7cb610044abcd74d413ab9:-1748692603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">95ae3c61837cb6108bbdb2b6feaad3dc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:12:49</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>3e0f9a4276c744408ee5d87945e4c3f1</sys_id>
+        <sys_metadata>00fc3421837cb6108bbdb2b6feaad3b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_scope_delete display_value="">48fdc42cddc04790aa1a6554c3c1c610</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_00fc3421837cb6108bbdb2b6feaad3b8</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_00fc3421837cb6108bbdb2b6feaad3b8">a11ebca1837cb6108bbdb2b6feaad3c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:12:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

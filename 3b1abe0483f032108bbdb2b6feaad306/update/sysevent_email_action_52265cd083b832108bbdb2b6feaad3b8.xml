@@ -41,10 +41,12 @@
 <p>Details of your approved registration:</p>
 <ul>
 <li><strong>Base:</strong> ${base}</li>
+<li><strong>City: </strong>${city}</li>
+<li><strong>State: </strong>${state}</li>
 <li><strong>Function:</strong> ${function}</li>
 <li><strong>Approved By:</strong> ${base.manager}</li>
 </ul>
-<p>You can now proceed to the next steps. Please refer to Email 1 for your final registration details.</p>
+<p>You can now proceed to the next steps.&nbsp;</p>
 <p>If you have any questions, feel free to contact us.</p>
 <p>Best regards,<br>The Company Team</p>]]></message_html>
         <message_list/>
@@ -68,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52265cd083b832108bbdb2b6feaad3b8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Base Request Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
@@ -76,7 +78,7 @@
         <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
         <sys_update_name>sysevent_email_action_52265cd083b832108bbdb2b6feaad3b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-20 20:06:16</sys_updated_on>
+        <sys_updated_on>2025-10-24 19:35:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

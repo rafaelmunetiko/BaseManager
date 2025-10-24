@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">98bd4824837c72108bbdb2b6feaad33c</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Base Manager","wontWrap":false,"hasNoMargin":false,"level":"1","id":"label","value":"Base Manager","noDebounce":true,"propLabel":"Label"}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e27e34e1837cb6108bbdb2b6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_update_name>par_dashboard_widget_e27e34e1837cb6108bbdb2b6feaad324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:12:05</sys_updated_on>
+        <visualization/>
+        <w>10</w>
+        <widget_props/>
+        <x>11</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>par_dashboard_widget_e27e34e1837cb6108bbdb2b6feaad324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">98bd4824837c72108bbdb2b6feaad33c</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Base Manager","wontWrap":false,"hasNoMargin":false,"level":"1","id":"label","value":"Base Manager","noDebounce":true,"propLabel":"Label"}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-24 20:12:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e27e34e1837cb6108bbdb2b6feaad324</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package><sys_policy/><sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope><sys_update_name>par_dashboard_widget_e27e34e1837cb6108bbdb2b6feaad324</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-24 20:12:05</sys_updated_on><visualization/><w>10</w><widget_props/><x>11</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1018121090</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d9cc40d8837832108bbdb2b6feaad3ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:12:05</sys_created_on>
+        <sys_id>e67eb4e1837cb6108bbdb2b6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a17d990900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:12:05</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>6a7e34e18a7cb6107ee41c8a77a03e25</update_guid>
+        <update_guid_history>6a7e34e18a7cb6107ee41c8a77a03e25:-1018121090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9d8ef4e1837cb6108bbdb2b6feaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-24 20:12:17</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>200988d75ea14f9f98d7534879e5d471</sys_id>
+        <sys_metadata>e27e34e1837cb6108bbdb2b6feaad324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
+        <sys_scope_delete display_value="">48fdc42cddc04790aa1a6554c3c1c610</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_e27e34e1837cb6108bbdb2b6feaad324</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_e27e34e1837cb6108bbdb2b6feaad324">e67eb4e1837cb6108bbdb2b6feaad3d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-24 20:12:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

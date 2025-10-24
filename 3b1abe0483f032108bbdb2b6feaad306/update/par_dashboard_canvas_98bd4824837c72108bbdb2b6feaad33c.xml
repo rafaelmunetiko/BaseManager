@@ -2,14 +2,14 @@
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
         <dashboard display_value="Base Manager">90bdc460837c72108bbdb2b6feaad36e</dashboard>
         <dashboard_tab/>
-        <layout>[]</layout>
+        <layout>[{"sys_id":"bcfdf861837cb6108bbdb2b6feaad31c","x":10,"y":0,"w":38,"h":5,"component_id":"2d56f06d55f46bbd4e79b5e624beb940","component_props":"{\"html\":\"&lt;p&gt;&lt;span style=\\\"font-family: georgia, palatino;\\\"&gt;This dashboard provides key insights for base administrators, offering a comprehensive view of participant management and activity. It includes reports on the number of participants per base, pending approvals by base and by manager, and groupings of participants by role and by base. Additionally, it features a timeline of new registrations per day, helping administrators track engagement and monitor base growth over time.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\",\"id\":\"html\",\"value\":\"&lt;p&gt;&lt;span style=\\\"font-family: georgia, palatino;\\\"&gt;This dashboard provides key insights for base administrators, offering a comprehensive view of participant management and activity. It includes reports on the number of participants per base, pending approvals by base and by manager, and groupings of participants by role and by base. Additionally, it features a timeline of new registrations per day, helping administrators track engagement and monitor base growth over time.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\",\"noDebounce\":true,\"propLabel\":\"HTML\"}","can_edit":true},{"sys_id":"c0fc3861837cb6108bbdb2b6feaad381","x":2,"y":0,"w":6,"h":7,"component_id":"15fe506403f8a98575b6df59008ea8f1","component_props":"{\"src\":\"upload_bm.jpg\",\"sources\":\"[]\",\"fit\":\"fill\",\"position\":\"center center\",\"width\":125,\"height\":125,\"alt\":\"\",\"href\":\"https://www.servicenow.com/\",\"configAria\":\"{\\\"link\\\":{}}\",\"id\":\"height\",\"value\":125,\"noDebounce\":true,\"propLabel\":\"Height\"}","can_edit":true}]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 14:05:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98bd4824837c72108bbdb2b6feaad33c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
@@ -17,6 +17,6 @@
         <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
         <sys_update_name>par_dashboard_canvas_98bd4824837c72108bbdb2b6feaad33c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 14:05:01</sys_updated_on>
+        <sys_updated_on>2025-10-24 20:12:41</sys_updated_on>
     </par_dashboard_canvas>
 </record_update>

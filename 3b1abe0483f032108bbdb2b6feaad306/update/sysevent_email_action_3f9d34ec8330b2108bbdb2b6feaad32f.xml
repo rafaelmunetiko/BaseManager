@@ -36,11 +36,13 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${base.manager},</p>
+        <message_html><![CDATA[<p>Hello ${manager},</p>
 <p>We are pleased to inform you that the <strong>${base}</strong> base has reached its <strong>full capacity</strong>, and all registration requests have been <strong>approved</strong>.</p>
 <p>Here are the details of the approved memberships:</p>
 <ul>
-<li><strong>Base:</strong>&nbsp;${name}</li>
+<li><strong>Base: </strong>${name}</li>
+<li><strong>City: </strong>${city}</li>
+<li><strong>State: </strong>${state}</li>
 <li><strong>Capacity Status:</strong> Full</li>
 <li><strong>Total Approved Memberships:</strong> ${current_capacity}</li>
 </ul>
@@ -69,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f9d34ec8330b2108bbdb2b6feaad32f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Base Full - All Memberships Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Base Manager" source="x_752538_base_ma_0">3b1abe0483f032108bbdb2b6feaad306</sys_package>
@@ -77,7 +79,7 @@
         <sys_scope display_value="Base Manager">3b1abe0483f032108bbdb2b6feaad306</sys_scope>
         <sys_update_name>sysevent_email_action_3f9d34ec8330b2108bbdb2b6feaad32f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 18:22:07</sys_updated_on>
+        <sys_updated_on>2025-10-24 19:34:31</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
